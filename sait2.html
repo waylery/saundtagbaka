@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смешной звук</title>
+</head>
+<body>
+    <h1></h1>
+    <button id="playSound">Слушать звук</button>
+    <audio id="sound" src="https://www.myinstants.com/media/sounds/stony-250.mp3"></audio>
+
+    <script>
+        document.getElementById('playSound').addEventListener('click', function() {
+            document.getElementById('sound').play();
+        });
+    </script>
+</body>
+</html>
